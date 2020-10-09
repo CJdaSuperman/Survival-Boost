@@ -1,0 +1,16 @@
+{
+"companyName": "RemVisio",
+"productName": "Survival Boost",
+"productVersion": "0.1",
+"dataUrl": "Survival Boost_GitHub.data.unityweb",
+"wasmCodeUrl": "Survival Boost_GitHub.wasm.code.unityweb",
+"wasmFrameworkUrl": "Survival Boost_GitHub.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.3f1"
+}
