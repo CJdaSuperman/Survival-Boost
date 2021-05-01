@@ -7,7 +7,7 @@ public class FinishProtocol : MonoBehaviour
 
     AudioSource audioSource;
 
-    private void Start() =>audioSource = GetComponent<AudioSource>();    
+    void Start() =>audioSource = GetComponent<AudioSource>();    
 
     void OnCollisionEnter(Collision collision)
     {

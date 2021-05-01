@@ -3,6 +3,8 @@ using UnityEngine.SceneManagement;
 
 public class CollisionHandler : MonoBehaviour
 {
+    [SerializeField] float levelLoadDelay = 1f;
+
     Rocket spaceShip;   
 
     AudioSource audioSource;
@@ -35,7 +37,7 @@ public class CollisionHandler : MonoBehaviour
     {
         spaceShip.isTransitioning = true;
         audioSource.Stop(); //stops the thrusting sound                
-        Invoke(nameof(LoadNextLevel), spaceShip.levelLoadDelay);
+        Invoke(nameof(LoadNextLevel), levelLoadDelay);
     }
 
     void StartDeathSequence()
@@ -44,7 +46,7 @@ public class CollisionHandler : MonoBehaviour
         audioSource.Stop();
         audioSource.PlayOneShot(spaceShip.death);
         spaceShip.deathParticles.Play();
-        Invoke(nameof(ReloadLevel), spaceShip.levelLoadDelay);
+        Invoke(nameof(ReloadLevel), levelLoadDelay);
     }
 
     public void LoadNextLevel()
