@@ -10,4 +10,4 @@ https://youtu.be/c7IrLinSLGU
 
 Currently working on getting the game hosted on GitHub, but as of now it is not working. 
 
-<iframe src="Survival-Boost/Builds/index.html" width="600" height="400"></iframe>
+<iframe src="Builds/index.html" width="600" height="400"></iframe>
