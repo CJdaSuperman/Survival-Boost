@@ -8,6 +8,4 @@ I learned how to make this game through Udemy's Complete C# Unity Developer 3D c
 To find the source code for this project, go to Assets->Scripts. I also created a UML class diagram for the project to show how I visualized the scripts behaving with one another. The link provided is the progress I have made so far.
 https://youtu.be/c7IrLinSLGU
 
-Currently working on getting the game hosted on GitHub, but as of now it is not working. 
-
-<iframe src="Builds/index.html" width="600" height="400"></iframe>
+Currently working on getting the game hosted on GitHub, but as of now it is not working. https://cjdasuperman.github.io/Survival-Boost/
