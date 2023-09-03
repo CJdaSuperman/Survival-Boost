@@ -759,6 +759,6 @@ PlayerSettings:
   projectName: Survival Boost (1)
   organizationId: christopher-beltran
   cloudEnabled: 0
-  enableNativePlatformBackendsForNewInputSystem: 0
+  enableNativePlatformBackendsForNewInputSystem: 1
   disableOldInputManagerSupport: 0
   legacyClampBlendShapeWeights: 0
