@@ -1,5 +1,5 @@
 # Survival-Boost
-This is the first game I ever made. Technically it's more of a tech demo, but this game was made with Unity Engine.
+This is the first game I ever made. Technically it's more of a tech demo, but this game was made with Unity Engine v2019.4.3f1.
 
 It's a 2.5D platformer where the goal is to get your ship from one platform to the other. Your ship can only move up or down and rotate itself clockwise and counterclockwise to reach the end platform.
 
